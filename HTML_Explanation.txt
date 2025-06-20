@@ -1,0 +1,81 @@
+HTML Elements - Simple Explanation
+<html>
+The very first tag for your web page. Everything else you write goes inside it.
+
+<head>
+Holds info about the page, like its name in the browser tab. You don't see this part on the page itself.
+
+<title>
+Sets the name that appears in your browser tab.
+
+<body>
+This is where all the things you see on your web page go (text, pictures, forms, etc.).
+
+<h1> to <h6>
+These are headings for titles and sections. <h1> is the biggest, and <h6> is the smallest. They help organize text.
+
+<p>
+Used for a normal paragraph of text.
+
+<a>
+Makes text a clickable link. It can take you to another page or website.
+
+<ul> and <li>
+<ul> makes a list with bullet points. Each item in the list is an <li>.
+
+<ol> and <li>
+<ol> makes a list with numbers. Each numbered item is also an <li>.
+
+<img>
+Puts a picture on your page. You need to tell it where the picture is using src.
+
+<div>
+A simple, invisible box used to group parts of your page together, like a section.
+
+<hr>
+Draws a straight line across your page to separate sections.
+
+<table>, <tr>, <th>, <td>
+These work together to make tables for data. <table> is the whole table, <tr> is a row, <th> is a column title, and <td> is a normal data cell.
+
+<form>
+Used to make a form where people can type information.
+
+<input>
+A small box inside a form for typing things like names or emails.
+
+<label>
+Connects text to an input box, so you know what to type there (like 'Your Name').
+
+<textarea>
+This is a bigger box in a form, used for typing longer messages or comments.
+
+<br>
+Adds a simple line break, like pressing Enter for a new line of text.
+
+Why I used these input types:
+
+type="text"
+For basic text like a name, or for parts of a date (Day/Month/Year).
+
+type="email"
+For email addresses. It helps check if it looks like an email.
+
+type="tel"
+For phone numbers. Helps mobile phones show a phone keypad.
+
+type="submit"
+Makes a button that sends all the form information.
+
+type="checkbox"
+To let users pick more than one option (like Email OR Phone).
+
+type="radio"
+To let users pick only one option from a list.
+
+type="range"
+To let users pick a value from a slider (like how satisfied they are).
+
+How my navigation works:
+
+I grouped my navigation links inside a <div> (a simple box) with a small heading. Then, I used a bullet list (<ul> and <li>) for each page link. Each link is an <a> tag. The href part inside <a> tells it which HTML file (like about.html, contact.html, or portfolio.html) to open when you click. It's how you jump between my portfolio pages.

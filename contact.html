@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+        <link rel="icon" type="image/png" href="https://cdn-icons-png.freepik.com/256/943/943026.png?semt=ais_incoming">
+</head>
+<body>
+
+    <div>
+        <h1>Contact Me Here!</h1>
+        <h2>Have questions? Let me know!</h2>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Send a Message</h3>
+        <p>Fill this out to talk to me:</p>
+
+        <form action="#" method="post">
+
+            <p>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="user_name_simple" required>
+            </p>
+
+            <p>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="user_email_simple" required>
+            </p>
+
+            <p>
+                <label for="phone">Your Phone Number (optional):</label><br>
+                <input type="tel" id="phone" name="user_phone_simple">
+            </p>
+
+            <p>
+                <label for="message">What do you want to say?</label><br>
+                <textarea id="message" name="user_message_simple" rows="5" cols="30" required></textarea>
+            </p>
+
+            <p>
+                <h3>How should I contact you?</h3>
+                <input type="checkbox" id="pref_email" name="contact_email" value="yes">
+                <label for="pref_email">Email</label><br>
+
+                <input type="checkbox" id="pref_phone" name="contact_phone" value="yes">
+                <label for="pref_phone">Phone</label><br>
+
+                <input type="checkbox" id="pref_text" name="contact_text" value="yes">
+                <label for="pref_text">Text</label>
+            </p>
+
+            <p>
+                <h3>What is this about?</h3>
+                <input type="radio" id="inquiry_general" name="inquiry_about" value="gen" checked>
+                <label for="inquiry_general">General</label><br>
+
+                <input type="radio" id="inquiry_business" name="inquiry_about" value="biz">
+                <label for="inquiry_business">Business</label><br>
+
+                <input type="radio" id="inquiry_support" name="inquiry_about" value="sup">
+                <label for="inquiry_support">Support</label>
+            </p>
+
+            <p>
+                <label>Preferred Contact Date (Day/Month/Year):</label><br>
+                <input type="text" name="day_simple" size="2" maxlength="2" pattern="\d{2}" required placeholder="DD"> /
+                <input type="text" name="month_simple" size="2" maxlength="2" pattern="\d{2}" required placeholder="MM"> /
+                <input type="text" name="year_simple" size="4" maxlength="4" pattern="\d{4}" required placeholder="YYYY">
+            </p>
+
+            <p>
+                <label for="satisfaction">How satisfied are you? (1=Not, 5=Very):</label><br>
+                <input type="range" id="satisfaction" name="satisfaction_level_simple" min="1" max="5" value="3">
+            </p>
+
+            <p>
+                <input type="submit" value="Send">
+            </p>
+
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Go to other pages:</h3>
+        <ul>
+            <li><a href="portfolio.html">Home Page</a></li>
+            <li><a href="about.html">About Me Page</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>&copy; 2024 Suryansh Verma. Professional Profile. Connect with me.</p>
+    </div>
+
+</body>
+</html>
